@@ -8,7 +8,7 @@ phases:
       - echo install
   pre_build:
     commands:
-      - acho pre-build
+      - echo pre-build
   build:
     commands:
       - java -version
