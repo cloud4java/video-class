@@ -11,6 +11,7 @@ phases:
       - acho pre-build
   build:
     commands:
+      - java -version
       - mvn package
       - echo build
   post_build:
